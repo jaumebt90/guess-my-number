@@ -3,6 +3,12 @@
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let highscore = 0;
+const displayMessage = function (message) {
+  document.querySelector(".message").textContent = message;
+};
+const displayScore = function (score) {
+  document.querySelector(".score").textContent = score;
+};
 //document.querySelector('.number').textContent = secretNumber;
 
 document.querySelector(".check").addEventListener("click", function () {
