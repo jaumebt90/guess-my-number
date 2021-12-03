@@ -43,7 +43,7 @@ document.querySelector(".check").addEventListener("click", function () {
 });
 
 document.querySelector(".again").addEventListener("click", function () {
-  score = 20;
+  score = 10;
   secretNumber = Math.trunc(Math.random() * 20) + 1;
   displayScore(score);
   document.querySelector("body").style.backgroundColor = "#222";
